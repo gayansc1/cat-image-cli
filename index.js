@@ -59,7 +59,7 @@ function sanitizeAndValidateStrInput(input){
 
 function validateInputs(greeting, who, width, height, size){
     if(!sanitizeAndValidateStrInput(greeting) || !sanitizeAndValidateStrInput(who)){
-      console.log('Input should be a text');
+      console.log('greeting and who should be a text');
       return false;
     }
     if(!validateNumInput(width) || !validateNumInput(height) || !validateNumInput(size)){

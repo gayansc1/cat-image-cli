@@ -1,4 +1,4 @@
-# Image Merger
+# Image Merge App
 Recommended Node version : v16.17.0
 
 This is a simple application that generates a cat card by merging two cat images with customizable text. 
