@@ -23,10 +23,15 @@ Command : node index.js --greeting "Hello" --who "You" --width 400 --height 500 
 The command-line arguments are optional and have default values as shown above. Here is a description of each argument:
 
 --greeting: The text to be displayed on the first cat image. Default: "Hello".
+
 --who: The text to be displayed on the second cat image. Default: "You".
+
 --width: The width of the cat images and the resulting merged image. Default: 400.
+
 --height: The height of the cat images and the resulting merged image. Default: 500.
+
 --color: The color of the text on the cat images. Default: "Pink".
+
 --size: The font size of the text on the cat images. Default: 100.
 
 After running the app, it will make two API requests to retrieve the cat images with the specified text and parameters. 
